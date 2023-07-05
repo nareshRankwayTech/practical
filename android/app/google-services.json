@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "710290512281",
+    "project_id": "practical-defb5",
+    "storage_bucket": "practical-defb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710290512281:android:d86d9fa1ed42afe563db08",
+        "android_client_info": {
+          "package_name": "com.practical.practical"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710290512281-edkoc7sg0ngtris2uuu01bhk4d6h1t06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY1T4NQRV7i2u-V6Wa_YMwlHbB_wjFp2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710290512281-edkoc7sg0ngtris2uuu01bhk4d6h1t06.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "710290512281-a83hb6tdetcisneur8dps3ofj3agmesb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.practical.practical"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
