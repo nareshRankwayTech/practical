@@ -46,10 +46,17 @@ class _SignUpScreenState extends State<SignUpScreen> {
   }
 
   String? _passwordValidator(String? value) {
-    if (value!.isEmpty) {
-      return "Please enter your password";
+    RegExp regex=RegExp(r'^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!@#\$&*~]).{8,}$');
+    var passNonNullValue=value??"";
+    if(passNonNullValue.isEmpty){
+      return ("Please enter password");
     }
-
+    else if(passNonNullValue.length<6){
+      return ("password Must be more than 5 characters");
+    }
+    else if(!regex.hasMatch(passNonNullValue)){
+      return ("password should contain upper,lower,digit and Special character ");
+    }
     return null;
   }
 
